@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Android';
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0px;
+    top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(132, 225, 173);
+}
+header{
+    background-image: linear-gradient(to top, rgb(26, 91, 55), rgb(60, 217, 131));
+    color: white;
+    text-align: center;
+    box-shadow: 4px 4px 4px 9px rgba(0, 0, 0, 0.493);
+}
+header > h1{
+    margin-top: 0px;
+    padding: 20px;
+}
+header > h2{
+    padding: 10px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+nav{
+    background-color: rgb(26, 91, 55);
+    color: white;
+    padding: 10px;
+}
+span{
+    padding: 10px;
+}
+a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: rgb(60, 217, 131);
+
+}
+section{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.466);
+    padding: 10px;
+}
+section > h1{
+    font-family: 'Android', Arial;
+    color:  rgb(26, 91, 55);
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+section > p{
+    padding: 10px;
+    font-size: 1.2em;
+}
+section > h2{
+    font-family: 'Android', Arial;
+    color:  rgb(26, 91, 55);
+    background-image: linear-gradient(to right, rgb(60, 217, 131), white);
+    font-size: 1.2em;
+    margin: 10px;
+}
+img#mulher{
+    padding: 10px;
+}
+img#bicho{
+    margin: auto;
+    display: block;
+}
+footer{
+    text-align: center;
+    background-color: rgb(26, 91, 55);
+    color: white;
+    padding: 10px;
+    font-style: italic;
+}
+section > p#debaixo{
+    margin-bottom: 0px;
+}
+div{
+    background-color: rgb(26, 91, 55);
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+div#video{
+    margin: auto;
+    display: block;
+}
+section > section{
+    width: 600px;
+    box-shadow: none;
+    border-radius: 10px;
+    background-color: rgb(197, 235, 214);
+    padding: 0px;
+
+}
+h3{
+    background-color: rgb(47, 168, 102);
+    margin: 0px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+section > p > a{
+    color: rgb(26, 91, 55);
+}

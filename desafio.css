@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(56, 56, 56);
+}
+header{
+    font: normal 20pt Arial;
+    text-align: center;
+    color: white;
+}
+section{
+    text-align: center;
+}
+a{
+    color: white;
+}

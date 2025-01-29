@@ -1,0 +1,89 @@
+body{
+    width: 11054vw; /*11054 200% da largura da viewport */
+    height: 100vh; /* Altura total da tela */
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+div#Sol:hover{
+    background-color: rgb(245, 245, 156);
+}
+div#Sol {
+    width: 1392px;          /* Largura do círculo */
+    height: 1392px;         /* Altura do círculo */
+    background-color: rgb(223, 223, 60); /* Cor do círculo */
+    border-radius: 50%;    /* Faz o elemento ficar redondo */
+    position: absolute;    /* Permite posicionar em lugares específicos */
+    top: 0px;             /* Posição a 200 pixels do topo */
+    left: 0px;            /* Posição a 300 pixels da esquerda */
+  }
+  div#Sol span{
+    display: block;
+    font-size: 6em;
+    top: 696px;
+    left: 696px;
+}
+div#Mercurio{
+    width: 100px;          /* 5Largura do círculo */
+    height: 100px;         /* 5Altura do círculo */
+    background-color: rgb(84, 85, 88); /* Cor do círculo */
+    border-radius: 50%;    /* Faz o elemento ficar redondo */
+    position: absolute;    /* Permite posicionar em lugares específicos */
+    top: 696px;             /* Posição a 200 pixels do topo */
+    left: 57910px;   
+}
+div#Mercurio{
+    width: 100px;          /* 5Largura do círculo */
+    height: 100px;         /* 5Altura do círculo */
+    background-color: rgb(84, 85, 88); /* Cor do círculo */
+    border-radius: 50%;    /* Faz o elemento ficar redondo */
+    position: absolute;    /* Permite posicionar em lugares específicos */
+    top: 696px;             /* Posição a 200 pixels do topo */
+    left: 59302px;   
+}
+div#Vênus{
+    width: 100px;          /* 5Largura do círculo */
+    height: 100px;         /* 5Altura do círculo */
+    background-color: rgb(233, 156, 55); /* Cor do círculo */
+    border-radius: 50%;    /* Faz o elemento ficar redondo */
+    position: absolute;    /* Permite posicionar em lugares específicos */
+    top: 696px;             /* Posição a 200 pixels do topo */
+    left: 109592px;  
+}
+
+div#Terra{
+    width: 13px;          /* Largura do círculo */
+    height: 13px;         /* Altura do círculo */
+    background-color: rgb(8, 21, 145); /* Cor do círculo */
+    border-radius: 50%;    /* Faz o elemento ficar redondo */
+    position: absolute;    /* Permite posicionar em lugares específicos */
+    top: 696px;             /* Posição a 200 pixels do topo */
+    left: 150992px;   
+}
+div#Lua{
+    width: 3px;          
+    height: 3px;         
+    background-color: rgb(153, 143, 136);
+    border-radius: 50%;   
+    position: absolute;   
+    top: 696px;            
+    left: 151390px;  
+}
+div#Marte{
+    width: 100px;          
+    height: 100px;         
+    background-color: rgb(223, 100, 29);
+    border-radius: 50%;   
+    position: absolute;   
+    top: 696px;            
+    left: 229332px;  
+}
+div#Júpiter{
+    width: 140px;          
+    height: 140px;         
+    background-color: rgb(199, 156, 116);
+    border-radius: 50%;   
+    position: absolute;   
+    top: 696px;            
+    left: 779392px;  
+}
