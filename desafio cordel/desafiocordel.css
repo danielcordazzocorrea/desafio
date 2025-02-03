@@ -24,6 +24,8 @@ h1{
     margin: 0px;
     margin-top: 30px;
     padding: 10px;
+    font-variant: small-caps
+    ;
 }
 nav{
     font: normal Bold 1em var(--fonte_nav);
