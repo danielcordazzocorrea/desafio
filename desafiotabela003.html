@@ -12,22 +12,19 @@
             border: 1px solid black;
             padding: 10px;
         }
-        .sexo{
-            font-weight: bold;
-        }
     </style>
 </head>
 <body>
     <table>
         <thead><tr>
-            <th>Grupo</th>
+            <th scope="col">Grupo</th>
             <th scope="col">Nomes</th>
-            <th scope="col" colspan="3">Filmes</th>
+            <th scope="colgroup" colspan="3" >Filmes</th>
         </tr>
         </thead>
         <tbody>
             <tr>
-                <td rowspan="3" class='sexo'>Mulheres</td>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
                 <td>Ana Maria</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -46,9 +43,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr>
-                <td rowspan="3" class="sexo">
-                    Homens
-                </td>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
