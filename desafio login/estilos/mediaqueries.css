@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section{
+        width: 90vw;
+        height: 280px;
+    }
+    section > div#imagem{
+        float: left;
+        height: 100%;
+        width: 30%;
+    }
+    section > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
