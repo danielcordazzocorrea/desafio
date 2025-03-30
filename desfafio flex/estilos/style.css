@@ -1,0 +1,29 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+section{
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+iframe{
+    max-width: 500px;
+
+}
+img{
+    max-width: 400px;
+    height: auto;
+    margin: 10px;
+}
+.text{
+    max-width: 700px;
+    margin: 10px;
+}
